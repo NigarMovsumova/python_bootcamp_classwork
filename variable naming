@@ -1,0 +1,27 @@
+stoplight - işıqfor
+color - rəng
+
+stoplight_color - snake case
+stoplight-color - kebab case
+stoplightColor - camel case
+
+character_name - snake case
+character-name - kebab case
+characterName - camel case
+
+str = string
+int = integer
+float = 5.5, 5.76
+
+bool = boolean
+true, false
+1, 0
+
+5 > 2 hə/yox
+hə = true
+yox = false
+
+7 * 2 > 0
+true
+
+
