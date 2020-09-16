@@ -1,0 +1,32 @@
+Birinci dərs:
+
+1. İstifadəçi rəqəm daxil edir. Onun cüt ya tək olduğu yoxlamaq gərəkir.
+ Əgər rəqəm cütdürsə, konsola rəqəmi çıxarın və yanında Cüt olduğunu qeyd edin.
+ Əgər rəqəm təkdirsə, rəqəmi çıxarın və tək olduğunu qeyd edin.
+
+2. İstifadəçi klaviaturadan rəqəmi daxil edir. Rəqəm 7yə tam bölünürsə,
+ekrana "number x is multiple 7" və ya "x rəqəmi 7yə tam bölünür" yazısını çıxarın.
+Əks halda, ekranda "number x is not multiple 7" və ya "x rəqəmi 7yə tam bölünmür"
+
+3. İstifadəçi 2 rəqəm daxil edir. 2 rəqəmdən maksimum hansısıdırsa, onu konsola çıxartmaq lazımdır.
+
+4. İstifadəçi 2 rəqəm daxil edir. 2 rəqəmdən minimum hansısıdırsa, onu konsolda göstərmək gərəkir.
+
+5. İstifadəçi 2 rəqəm daxil edir. İstifadəçi seçimindən asılı olaraq, rəqəmlərin cəmini, fərqini,
+arifmetik ortalamasını və hasilini konsola çıxarın.
+
+Ikinci dərs:
+
+1. Istifadəçi klaviaturadan çevrənin diametrini daxil edir.
+İstifadəçinin seçimindən asılı olaraq çevrənin sahəsi və ya
+perimetrini hesablayıb, konsolda əks etdirin.
+
+2. İstifadəçi oyun konsolunun qiymətini, konsolların sayını və endirim faizini daxil edir.
+İstifadəçi seçimindən asılı olaraq ümumi sifarişin və ya tək oyun konsolunun qiymətini hesablayın.
+
+3. İstifadəçi klaviaturadan faylın ölçüsünü (qiqabayt) və internet sürətini (bit/saniyədə)daxil edir.
+İstifadəçinin seçimindən asılı olaraq, hesablayın, neçə saat, dəqiqə və ya saniyəyə fayl yüklənəcək.
+
+4. İstifadəçi klaviaturadan saat sayını daxil edir. Əgər daxil edilən nömrə 0-6 arasında yerləşirsə,
+o zaman konsola "Goog Night" çıxarın, 13-17 arasındadırsa, "Good Day"çıxarın, 17-0 arası isə - "Good Evening".
+Məsələn, 6 rəqəmi 6-13 arasındadır.

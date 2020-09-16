@@ -1,0 +1,16 @@
+1. İstifadəçi klaviaturadan 3 rəqəm daxil edir.
+İstifadəçi seçimindən asılır olaraq proqram 3 rəqəmin cəmini ya hasilini konsola çıxarır.
+2. İstifadəçi 3 rəqəm daxil edir. Seçimindən asılı olaraq, proqram ekrana 3 rəqəmin maksimumunu,
+minimumunu və ya arifmetik hasilini əks etdirin.
+3. İstifadəçi klaviaturdan metr sayını daxil edir. Seçimdən asılı olaraq, proqram metrləri millərə, düymlara
+və ya yardlara çevirir.
+
+1. İstifadəçi həftə gününü rəqəmlə daxil edir (1-7).
+Konsola onun adını çıxarmaq gərəkir.
+
+2. İstifadəçi ayın neçənci olduğunu daxil edir. Konsola onun adı çıxarılır.
+
+3. İstifadəçi rəqəm daxil edir. Əgər rəqəm 0dan yuxarıdırsa, konsola - "Number is positive",
+0dan aşağıdırsa, "Number is negative", 0a bərabərdirsə, "Number is equal to zero" çıxarın.
+
+4. İstifadəçi 2 rəqəm daxil edir. Əgər bərabər deyillərsə, o zaman onları artmaya görə konsola çıxartmaq gərəkir.
