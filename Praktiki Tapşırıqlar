@@ -1,15 +1,53 @@
-1. Print table on Table Exercise.jpg using print() function and \t.
-2. Print asterisk table from Constellation.jpg using one print() function, blanks and \n symbols.
+1) İstifadəçi rəqəm daxil edir ( 1dən-9 rəqəmliyə kimi ola bilər).Onun neçə rəqəmdən ibarət
+olduğunu tapın. Maximum 3 dəyişən istifadə edə bilərsiniz.
 
-What code elements are allowed:
+2) Istifadəçi 5 rəqəmli ədəd daxil edir. Ədədin polindrom olub olmamasını təyin edin. (Polindrom
+- əksinə və düzünə eyni cür oxunur 12321 polindromdur, 12345 polindrom deyil)
 
-print("")
-*
-\n
- (blank)
+3) İstifadəçi 1-20 arası ədəd daxil edir. Ədəd sadədirsə True , mürəkkəbdirsə False çap olunsun.
+(Sadə ədədlər yalnız özünə və 1-ə bölünən ədədlərdir)
 
+4) 7. İstifadəçi ədəd daxil edir. Onun 3-ə, 5-ə, 7-ə bölünüb bölünməməsini (qalıqsız) yoxlayın.
+(Ayrı-ayrı)
 
+5) Maximum 4 rəqəmli ədəd daxil edilir. Ədədin neçə rəqəmdən ibarət olduğunu
+hesablayan program yazın.
 
+6) 12.Ümumi olaraq qəbul olunub ki , 1 insan yaşı 7 it yaşına bərabərdir ( 1 il = 7 il it üçün).
+Amma bu sadə hesablama çox hallarda səhv hesab olunur çünki itlər öz yetkin yaşlarına
+2 ilə çatırlar. Buna görə də, bəzi insanlar ilk iki il üçün itin yaşını 10.5 yaş olaraq
+hesablamağı düzgün hesab edirlər, daha sonrakı illəri isə 4 ildən hesablayırlar. (məsələn
+3 insan ili = 25 it ili )
+Yuxarıda verilən məlumatlara görə insan ilini it ilinə çevirən program
+yazmalısınız. Əmin olunki sizin program ilk iki il üçün ayrı sonrakı illər üçün ayrı
+hesablamanı reallaşdırır. Əgər istifadəçi tərəfindən mənfi ədəd daxil edilərsə, Sizin
+programınız , istifadəçiyə mənfi ədəd daxil etdiyini bildirməlidir
+
+7) 1. Sətirdəki bütün saitləri sayan program yazın. ( A E İ O U).
+
+8) Ekrana istifadəçinin daxil etdiyi say qədər, ulduzlardan üfiqi xətt çıxaran proqram yazın.
+
+9) Ekrana, 1-50 aralığındakı rəqəmlərdən ancaq cüt olanları çıxaran proqram yazın.
+
+10) İstifadəçinin daxil etdiyi aralıqda (məs 10 və 30) cüt rəqəmlərin cəmini tək rəqəmlərin hasilini hesablayan proqram yazın.
+
+11) 1-100 diapazonunda 3-ə bölünüən bütün ədədləri ekrana çıxaran proqram yazın.
+
+12) Ədədin faktorialını tapan proqram yazın. (Məsələn (! - faktorial işarəsidir),  5! = 1*2*3*4*5)
+
+13) Ədədin üstünü hesablayan proqram yazın (istifadəçi iki ədəd daxil edəcək əsas və üst məs. 2 və 3 cavab 8 alınmalıdır)
+
+14) İstifadəçi istənilən sayda rəqəmli ədəd daxil edir, onun rəqəmlərinin sayını və onların cəmini hesablayan proqram yazın.
+
+15) İstifadəçi istənilən sayda rəqəmli ədəd daxil edir, ədədi əksinə çevirən proqram yazın.
+
+16) İstifadəçi tam ədəd daxil edir, bu ədədin qalıqsız bölündüyü bütün rəqəmləri ekrana çıxaran proqram yazın.
+
+17) İstifadəçi tam ədəd daxil edir , bu ədədin sadə olub olmamasını tapan proqram yazın.
+
+18) İstifadəçi ədəd daxil edir, bu ədədin rəqəmlərinin artan ardıcıllıqla olub olmamasını yoxlayan proqram yazın. (12299 artan ardıcıllıq, 122044 artan ardıcıllıq deyil)
+
+19) “Ədədi tap” oyununu yazın. İstifadəçi ağlında bir rəqəm tutacaq, və yazdığınız proqram həmin ədədi bir neçə dəfə təxmin edərək tapmalıdır.
 
 
 
