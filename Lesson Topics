@@ -1,0 +1,7 @@
+0. Dokumentasiya ilə necə işləmək lazımdır
+1. Exception anlayışı
+2. Try-except-else-finally blokları
+3. Exception növləri və misalları
+4. exceptionun özünü olduğu kimi necə çap etmək olar (as keyword)
+5. Özünüz manual olaraq exceptionu necə ata bilərsiniz (raise keyword)
+10. break və continue operatorları
