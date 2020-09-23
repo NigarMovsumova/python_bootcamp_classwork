@@ -1,7 +1,10 @@
-
-
-1. Exceptionları əlavə etdiyiniz halda daha spesifik exceptionlar ilk öncə qeyd olunmalıdırlar,
+1. Exceptionları əlavə etdiyiniz halda daha spesifik
+exceptionlar ilk öncə qeyd olunmalıdırlar,
 daha ümumu (generic) olanlar daha aşağıda.
 
-2. Else bloku heç bir exception almadıqda icra olunur. Burda yazılan kodu bir başa try blokunda yazmaq olar,
-lakin else blokunda yazılma səbəbi odur ki, daha spesifik olaq hansi kod parçasında exception axtarırıq deyə.
+2. Else bloku heç bir exception almadıqda icra olunur.
+Burda yazılan kodu bir başa try blokunda yazmaq olar,
+lakin else blokunda yazılma səbəbi odur ki,
+daha spesifik olaq hansi kod parçasında exception axtarırıq deyə.
+
+3.
