@@ -1,5 +1,0 @@
-name = input('Enter your name: ')
-age = input('Enter your age: ')
-print('Your name is', name, '. Your age is', age)
-print('Your name is {}. Your age is {}'.format(name, age))
-print("Your name is {1}. Your age is {0}".format(age, name))
