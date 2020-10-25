@@ -1,5 +1,5 @@
 int('11')
 int('11', base=10)
-int('11', base=2)
-int('11', base=8)
-int('11', base=16)
+print(int('11', base=2))
+print(int('11', base=8))
+print(int('11', base=16))
