@@ -3,7 +3,7 @@
 # 3. funksiya istenilen herflerden soz yaradib, onu qaytarir.
 import random
 
-characters = ['a', 'e', 'i', 'o', 'u', 'r']
+characters = ['a', 'e', 'i', 'o', 'u', 'r', ',', '!', '.']
 
 
 def generate_any_word(length=3):
