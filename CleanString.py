@@ -2,8 +2,9 @@
 # 2. generasiya edilmish sozde mutleq vergul, noqte ve nida olmalidir
 # 3. o cumleden hemin ishareleri yigishdirib chap edirsiniz.
 
-import RandomWordPractise as random
 import string
+
+import RandomWordPractise as random
 
 # list = ['a', 'e', 'i', 'o', 'u', ',', '!', '.']
 
@@ -12,7 +13,6 @@ print(generated_word)
 word_copy = ''
 
 punctuation = ['?', '!', '.']
-
 
 for i in range(0, len(generated_word)):
     if generated_word[i] != '?' or generated_word[i] != '!' or generated_word[i] != '.':
