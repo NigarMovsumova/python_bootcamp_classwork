@@ -1,0 +1,5 @@
+1. Binary search vasitəsilə verilən ədədin list-də ilk və son indeksini tapmaq gərəkir.
+Əgər nömrə listdə yoxdursa, və ya 1 dəfə rast gəlinirsə, bunuda qeyd etməyiniz gərəkir.
+2. Binary search vasitəsilə verilən ədədin list-də neçə dəfə qarşınıza çıxmağını tapmaq gərəkir.
+3. Binary search vasitəsilə 1 rəqəminin list-də neçə dəfə qarşınıza çıxdığını tapmaq gərəkir.
+4.
