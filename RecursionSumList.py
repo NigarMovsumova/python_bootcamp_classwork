@@ -1,5 +1,6 @@
 test_list = [0, 1, 2, 3]
 
+
 def list_sum(list):
     if len(list) == 0:
         return 0
