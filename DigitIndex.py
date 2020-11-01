@@ -33,5 +33,3 @@ for i in range(len(digits_list)):
 #
 # 1 % 10 = 1
 # 1 // 10 = 0 - end
-
-
