@@ -1,0 +1,22 @@
+1. İstifadəçinin daltonik olub olmadığını yoxlamaq üçün nəzərdə tutulmuş proqram yazmaq gərəkir.
+10 seçim verilir istifadəçi seçim etdikcə və istifadəçi gördüyü rəngin nə rəng olduğunu seçir 4 variantdan
+(1 düz, digərləri random).
+
+2. İstifadəçi username və passwordu daxil etdiyi zaman, user/admin olduğunu
+və ya səhv username/password daxil etdiyini qeyd etmək gərəkir.
+İstifadəçiyə qeydiyyatdan keçmək üçündə imkan verin. Sign up basdığı zaman,
+    1. Ad
+    2. Soyad
+    3. email
+    4. username
+    5. password
+istifadəçi bu məlumatları qeyd edir və təsdiqləyir.
+təsdiqlədikdən sonra yenidən login səhifəsinə aid olan menu görsənir. Login etdikdə artıq
+və istifadəçi artıq yeni username/passwordla daxil ola bilir sistemə.
+
+3. İstifadəçinin görməsinin neçə faiz olduğunu təyin etmək gərəkir.
+Əvvəl lap böyük hərflər göstərilir və istifadəçi seçim etdikcə, həkim seçimin düz ya səhv olduğunu tıklaylb,
+qeyd edir. Nəticədə həkimə 10 hərfdən neçəsini düz tapdığı göstərilir ekranda.
+
+4. TkinterColorPickerRefactored.py faylına aid olan kodda elə bir dəyişiklik edin ki,
+həmçinin rəngin hex value-sunuda göstərsin.
