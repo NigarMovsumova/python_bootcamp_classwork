@@ -1,4 +1,3 @@
-import random
 from functools import partial
 from tkinter import *
 
@@ -8,15 +7,8 @@ def show_color(color_name):
     entry.insert(0, color_name)
 
 
-def generate_colors():
-    colors_list = ['red', 'green', 'blue', 'black', 'orange', 'violet']
-    for i in range(0, 7):
-        colors_list.append(random.choices(colors_list))
-    return colors_list
-
-
 def create_buttons():
-    colors_list = generate_colors()
+    colors_list = ['red', 'green', 'blue', 'black', 'orange', 'violet', 'cyan']
     buttons_list = []
     for i in range(0, 7):
         button = Button(width=16, bg=colors_list[i], command=partial(show_color, colors_list[i]))
