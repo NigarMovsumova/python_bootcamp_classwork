@@ -8,7 +8,16 @@ from tkinter import *
 
 def multiply():
     try:
-        label.config(text=int(first_entry.get()) * int(second_entry.get()))
+        label.config(text=float(first_entry.get()) * float(second_entry.get()))
+    except ValueError:
+        label.config(text='Enter valid numbers', font='Arial 8 bold')
+
+
+def divide():
+    try:
+        label.config(text=float(first_entry.get()) / float(second_entry.get()))
+    except ZeroDivisionError:
+        label.config(text='Can not divide by zero', font='Arial 8 bold')
     except ValueError:
         label.config(text='Enter valid numbers', font='Arial 8 bold')
 
@@ -31,7 +40,10 @@ second_entry.insert(0, 'Enter second number:')
 second_entry.pack()
 
 multiplication_button = Button(text=' * ', bg='#F2D9F3', fg='#000000', width=10, height=1, command=multiply)
-multiplication_button.pack(side=LEFT, padx=58, pady=20)
+multiplication_button.pack()
+
+division_button = Button(text=' / ', bg='#F2D9F3', fg='#000000', width=10, height=1, command=divide)
+division_button.pack()
 
 label = Label(text='', font=('Arial', 16, 'bold'))
 label.config(bd=10)
