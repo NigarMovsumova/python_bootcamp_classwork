@@ -1,0 +1,4 @@
+r - read
+w - write
+r+ - read and write
+a+ - add to the end of file
