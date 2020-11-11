@@ -1,0 +1,16 @@
+1. Tuples
+    1.0 what is a tuple?
+    1.1 how to create a tuple
+    1.2 empty tuple
+    1.3 tuple with 1 element
+    1.4 accessing tuple elements
+    1.5 updating tuples (concatenation)
+    1.6 removing tuples
+    1.7 tuple length
+    1.8 tuple iteration
+    1.9 tuple repetition
+    1.10 tuple membership
+    1.11 slicing
+    1.12 built-in functions
+2. difference between tuples and lists
+3. Tuples practise

@@ -1,0 +1,6 @@
+So, tuples are unmodifiable. Will adding gender to person work in this manner: person += ("female",)?
+Of course no. Unmodifiable means just that.
+It will work. Really elements could be added, but not modified.
+It will work. But it is only person variable modified with assigning a new tuple (concatenation of two).
+The old tuple is not modified and could be found if other variable points to it.
+
