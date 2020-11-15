@@ -4,28 +4,27 @@ import pickle
 # filedan melumatlari oxuyub, sort edib yeniden,
 # evvelki melumatlari silib filedan,
 # file-a yazmaq gerekir.
-from collections import OrderedDict
 
 
 students = {
     1: {
-        'firstname':'Ali',
-        'lastname':'Abbasov',
-        'subject':'Computer Science',
+        'firstname': 'Ali',
+        'lastname': 'Abbasov',
+        'subject': 'Computer Science',
         'mark': 12,
         'age': 26
     },
     2: {
         'firstname': 'Aysha',
-        'lastname':'Movsumova',
-        'subject':'Machine Learning',
+        'lastname': 'Movsumova',
+        'subject': 'Machine Learning',
         'mark': 3.7,
         'age': 17
     },
     3: {
         'firstname': 'Nigar',
-        'lastname':'Movsumova',
-        'subject':'Machine Learning',
+        'lastname': 'Movsumova',
+        'subject': 'Machine Learning',
         'mark': 3.7,
         'age': 39
     }
@@ -59,7 +58,3 @@ file.close()
 file = open('students.txt', 'rb')
 print(pickle.load(file))
 file.close()
-
-
-
-
