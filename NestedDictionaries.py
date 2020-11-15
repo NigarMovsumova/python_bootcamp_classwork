@@ -1,3 +1,6 @@
+# Dictionaryde yashi 18den yuxari olanlarin melumatlari chap edilsin
+
+
 students = {
     1: {
         'firstname':'Ali',
@@ -15,6 +18,7 @@ students = {
     }
 }
 
+for i in students:
+    if students[i]['age'] > 18:
+        print(students[i])
 
-
-print(students[1]['age'])
