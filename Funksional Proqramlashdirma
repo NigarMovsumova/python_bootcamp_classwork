@@ -1,0 +1,71 @@
+Funksional proqramlaşdırma. Qısa izah və demo
+January 27, 2019
+Funksional proqramlaşdırma bir neçə əsas proqramlaşdırma paradiqmlərindən biridir.
+Əsas hədəfi, riyazi funksiyanın prinsipi olan bir giriş parametrinə bir çıxışın uyğun olmasıdır.
+Yəni, bir çıxış iki girişə aid ola bilməz.
+Funksiyanın nəticəsinə yalnız onun giriş dəyərləri təsir edə bilər.
+Nə isə bu qədər uzunçuluq tarix o qədər də əhəmiyyətli deyil.
+İş prinsipini bilməniz və işləmə təcrübəsi yetər.
+
+Bu stil proqramların bazası iterator hesab olunur.
+
+Iterator : iterasiya bir şeyin və ya obyektin üzərində adımlamaq deməkdir.
+Biz siyahının, sətrin üzərində adımlaya bilərik,
+yəni onun elementlərini əldə edə bilərik bir-bir.
+Əslində list və ya onun iteratoru demək olar eyni anlam daşıyar,
+o zaman iterator nəyə lazımdır deyə bilərsiniz, amma, ancaq, lakin iteratorun çox böyük
+bir gücü Python 2.4 versiyasından bəri mövcuddur : GENERATORLAR!
+
+Yaxşı bəs nədir bu generatorlar.
+Generator obyektinin təyini adi funksiyalarda olduğu kimidir,
+lakin onları izah edənədə xüsusi bir termin istifadə edilir : on-demand, yəni ehtiyac olduqca.
+Generatorlar, adi funksiyalardan fərqli olaraq siz ondan istədiyiniz zaman
+sizə cari hesablamanın (və ya digər nəyinsə) dəyərini qaytarır və cari vəziyyətini dondurur
+(yəni bütün lokal dəyişənlər qorunur). Siz gələn dəfə onu çağıranda qaldığı yerdən davam edər.
+Ən sadəsindən bir generator yaradaq: 1-dən 10-a kimi ədədləri bizə verəcək
+
+Bu misal birdən ona kimi ədədləri bizə verəcək.
+Lakin, generatorlardan nəticələri almaq üçün next() funksiyasını çağırmaq lazımdır.
+
+
+Bu misalda gördüyünüz kimi, funksiyanı çağırmaq bizə nəticə yerinə xüsusi generator obyekt qaytarır. Həmin generator obyektə next funksiyasını tətbiq etdikdə bizə nəticəni qaytarır və generatoru bir addım irəlilədir. Əgər generatorun qaytaracağı heçnə qalmayıbsa (bizim misalda ilk 10 ədədi verdikdən sonra), Stopİteration errorunu verir(əslində error yox xəbərdarlıqdır). Bunun gözəl yanı odur ki, list, for əməliyyatları bu xəbərdarlığı tutaraq generatorun verdiyi hər dəyər və ya obyekt üzərində əməliyyat apara bilir. Generatorlara həsr olunan ayrıca yazı olacaq əlbət, çünki ayrıca hörmətə layiqdirlər, lakin biz hələki burada dayanıb növbəti funksional vahidə, yəni  funksiyalara keçirik.
+
+Anonim funksiyalar: başqa sözlə lambda funksiyalar, bu tip funksiyalar bəzən bir sətirlik funksiyalar adlanır. Bəzən elə vaxt olur ki hər hansı bir işi icra etmək üçün ona ayrı funksiya yaratmaq proqramızda "zibil" (trash) yaradır, çünki ancaq bir yerdə istifadə ediləcək (və çox güman ki bir dəfəlik) işlər üçün funksiya yaratmaq anlamsızdır. Məsələn, ikiyə bölünmə üçün ayrıca yaradıb sonra heç istifadə etməmək sadəcə səmərəsizlikdir. Buna görə də anonim funksiyalar, əvəzolunmazdır. Gəlin lambda funksiyaların yaradılma sintaksisinə baxaq:
+
+lambda dəyişən_sihayısı : əməliyyat
+
+Misal olaraq : lambda x : x%2
+
+Vacib bir şeyi qeyd edim ki lambda funksiyalarda return açar sözü istifadə edilmir. İcra olunan əməliyyatın nəticəsi avtomatik geri qaytarılır. Lambda funksiya heç bir argument qəbul etməyə də bilər. Və son olaraq lambda funksiyanın əməliyyatının nəticəsi None-da ola bilər.
+
+İndi isə keçək bəzi maraqlı Pythonda əvvəlcədən quraşdırlımış funksiyalara.
+
+Map : Bu funksiya iki argument qəbul edir. İlk argumenti hər hansı funksiyadır (istər lambda, istərsə də adi), ikinci argument isə iterable tipindəndir. İstər generator, istər list, istərsə tuple. Map funksiyası iterable-in hər bir elementi üçün  argument olaraq verdiyiniz funksiyanı tətbiq edərək nəticəni iterable olaraq verir. Sətrdəki hər elementi ədədə çevirən balaca funksiya yaradaq.
+
+map(lambda x:int(x), "10121510")
+
+Bir sətirdə bir neçə iş görürük. bu proqramın nəticəsi olaraq bir iterable alacğaq hansı ki üzərində addımlayaraq, uyğun olaraq 1 0 1 2 1 5 1 0 rəqəmlərini int tipindən alacağıq.
+
+Filter : Bu funksiya adından göründüyü kimi, iterable-da filtrasiya işləri aparır. İlk argument olaraq müqayisə funksiyasını qəbul edir, ikinci argument olaraq isə iterable. Hər bir elementi verilmiş funksiya vasitəsi ilə yoxlayır, əgər əməliyyatın nəticəsi True-dursa bu halda obyekt saxlanılır, əks halda filtrasiya edilir, yəni filter funksiyasının çıxışında verilən iterable-da həmin element mövcud olmayacaq.
+
+filter(lambda x: x%2 == 0, range(10))
+ Bu proqram parçası 0-dan 10-a qədər olan ədədlərdən çüt olanları seçəcək.
+
+Sorted : Bu funksiya 1 mütləq, 2 köməkçi argument qəbul edir. Birinci argument iterable-dır. İkinci argument açar argumentdi, hansı ki obyektdən müqayisə üçün açar çıxarır, üçüncü isə bool tipindəndir və tərsinə ya düzünə sıralanacağını təyin edir. Bu funksiyanı ona görə yazdım ki, sıralamanı ədədlər üzərindən yox həmdə müxtəlif obyektlər üzərndən aparacağımızı göstərə bilim. Sizin mənim Python-da Classlar blog seriyamı oxuduğunuzu hesab edərək bir kiçik misal yazacam.
+
+class MyClass:
+     def __init__(self, i):
+           self.i = i
+l = [MyClass(4), MyClass(1),MyClass(10),MyClass(0),MyClass(7)]
+
+sorted_class = sorted(l)
+
+Axırıncı sətri yazmağa çalışarsanız, xəta ilə qarşılaşacaqsınız. Səbəb isə budur: Python iki MyClass obyekti arasında nə cür müqayisə aparacağını bilməz. Ona görə də key argumentindən istifadə edirik.
+
+Bu kodu belə yazaq : sorted(l, key = lambda c: c.i)
+
+Bu halda sorted funksiyası hər bir sinif nümayəndəsini key olaraq qeyd olunan funksiyaya qoyacaq. Və beləliklə bizim müqayisəmiz sadəcə 4,1,10,0,7 ədədlərinin müqayisəsi ilə eynidir.
+
+Bununla da bu yazımızda çox maraqlı bir proqramlaşdırma yolunun bir hissəsinə göz atdıq, təbii ki bu yazının davamı da olacaq və daha maraqlı tətbiqlərinə baxacağıq.
+
+Hələlik!
