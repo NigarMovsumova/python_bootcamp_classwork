@@ -26,4 +26,3 @@ class Human:
 
 human = Human('Nigar', 'Movsumova', 'tetetsts', '17-04-1994')
 human.get_all_attributes()
-

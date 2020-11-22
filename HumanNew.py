@@ -1,4 +1,6 @@
 from Dog import *
+
+
 #  constructor
 # adi, soyadi, vesiqe nomresi, iti var ya yox, dogum ili, vezifesi, shirketi
 
@@ -38,8 +40,3 @@ human.get_all_attributes()
 maks = Dog('Maks', 8)
 behlul = Human('Behlul', 'Mahmudlu', 'passport_id_example', '23-11-1995', maks)
 behlul.get_all_attributes()
-
-
-
-
-

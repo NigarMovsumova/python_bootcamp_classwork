@@ -43,6 +43,3 @@ reks.get_all_attributes()
 Dog.test('test')
 Dog.get_all_attributes(reks)
 Dog.get_all_attributes(max)
-
-
-
