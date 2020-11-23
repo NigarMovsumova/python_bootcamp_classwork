@@ -1,9 +1,11 @@
 class Dog:
 
-    def __init__(self, name, age):
+    def __init__(self, name, age, mother=None, father=None):
         self.name = name
         self.age = age
         self.speed = 1.5
+        self.mother = mother
+        self.father = father
 
     def change_speed(self, new_speed):
         self.speed = new_speed
@@ -26,8 +28,8 @@ class Dog:
         print("test")
 
 
+
 reks = Dog('Reks', 2)
-max = Dog('Max', 1)
 
 reks.bark()
 reks.run('Baku')
@@ -39,7 +41,18 @@ print(reks.name)
 print(reks.speed)
 print(reks.age)
 reks.get_all_attributes()
-# reks.test("test")
 Dog.test('test')
 Dog.get_all_attributes(reks)
-Dog.get_all_attributes(max)
+
+mom = Dog('Lila', 5)
+dad = Dog('Bars', 5)
+child = Dog('Maks', 2, mom, dad)
+child = Dog('Richard', 1, mom, reks)
+print(child.name)
+print(child.father.name)
+print(child.mother.name)
+
+# print(richard.name)
+# print(richard.father.name)
+# print(richard.mother.name)
+
