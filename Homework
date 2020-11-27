@@ -1,0 +1,8 @@
+futbol klublari
+
+futbol klublarina aid kateqoriyalari teyin etmek
+ona esasen inheritance eden klasslari yaradacaqsiniz.
+hemin klasslarda lazimi yerlerde overloading/overriding istifade edirsiniz
+ve her overload ya override olan metodun ustunde qeyd edirsiniz overload
+ya override oldugunu.
+hemcinin 4 static metod yaratmaq gerekir ehtiyac olan yerlerde.
