@@ -7,3 +7,6 @@ class Animal:
 
     def eat_humans(self):
         print('I like to eat humans')
+
+    def sleep_in_winter(self):
+        print('I do not sleep during winter')
