@@ -1,0 +1,10 @@
+1. User timer = 25 deq  
+2. interval from user = 5 deq 
++3. Start duymesi basilanda timer ishe dushur -
+saniyeleri gosterir ve deqiqeleri 
++4. sona chatdiqda vaxt siqnal verir, ve pauza istifadeci olsun 5 deq 
++5. 5 deqiqenin timeri ishe dushur,
+ve pauza bitende yene pencere achilir 25 deqiqe ile, siqnal verib. 
++6. 4 sessiya sonra istifadeci 15 deqiqe interval alir. 
++7. 15 deqiqe kechir, siqnal verir ve axirda gosterir ki,
+siz filan qeder chalishdiniz bu gun. 
