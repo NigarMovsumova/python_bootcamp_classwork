@@ -1,0 +1,16 @@
+1. rəqəmi bölürük 2-yə
+2. qalığı əlavə edirik nəticənin əvvəlinə
+3. Əgər nəticə 0 deyilsə,
+rəqəm = rəqəm / 2 = 1
+Qayıt 1ci addıma
+Əgər nəticə 0dırsa, hesablamanı dayandır. Son
+
+n - cüt və ya tək
+1.  qaliq = n % 2
+2. əgər qalıq 0dırsa, ədəd cütdür. Son.
+3. əgər qalıq 1dirsə, ədəd təkdir. Son.
+
+125648 % 10
+
+125648
+axırıncı rəqəmi 0, 2, 4, 6, 8
