@@ -1,0 +1,20 @@
+# İstifadəçi manqo, avokado, kivi alır
+# və hərəsindən neçə kilo aldığını qeyd edir.
+# Manqo kilosunun qiymeti - 1.5 azn
+# Avokado - 8 azn.
+# kivi - 2 azn.
+# İstifadəçi bazarlığa nə qədər pul
+# xərcləyəciyini qeyd edin.
+
+
+
+# 1. İstifadəçi cibində olan pul məbləği
+# daxil edir, pulun buna çatıb çatmayacağını təyin edin.
+# 2. Pulun qalığını göstərin.
+# 3. Ümumən neçə kilo bazarlıq etdiyini göstərin
+
+# 4. 10 % endirim olsa, neçəyə başa gələr bazarlıq
+# 5. İstifadəçi endirimi özü daxil edir,
+ona əsasən hesablamılısınız sonuc məbləğ nə qədərdir.
+# 6. Və endirimlə alsa, cibində qalan məbləğ 50 manatdan
+yuxarıdır mı ya yox.
