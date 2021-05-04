@@ -1,0 +1,29 @@
+0) # Istifadechi nece setr chap olunacagini daxil edir.
+For və ya whilesiz. Kod cəmi 2 sətrdən ibarət olmalıdır.
+# * * *
+# * * *
+# * * *
+# * * *
+
+1) Istifadəçi 5 rəqəmli ədəd daxil edir.
+Ədədin polindrom olub olmamasını təyin edin.
+(Polindrom - əksinə və düzünə eyni cür oxunur 12321
+polindromdur, 12345 polindrom deyil)
+
+2) İstifadəçi istənilən sayda rəqəmli ədəd daxil edir,
+ədədi əksinə çevirən proqram yazın.
+12345
+54321
+
+3) İstifadəçi tam ədəd daxil edir,
+bu ədədin qalıqsız bölündüyü
+bütün rəqəmləri ekrana çıxaran proqram yazın.
+
+12345
+
+1 2 3 4 5
+
+4) İstifadəçi ədəd daxil edir,
+bu ədədin rəqəmlərinin artan ardıcıllıqla
+olub olmamasını yoxlayan proqram yazın.
+(12299 artan ardıcıllıq, 122044 artan ardıcıllıq deyil)
