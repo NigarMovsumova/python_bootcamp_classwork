@@ -1,0 +1,14 @@
+0) Istenilen sayda ededi olan reqem verilir istifadeci
+terefinden, 0-a ve ya 3-e beraber olan reqemlerin
+sayini tapmaq gerekir.
+
+1) İstifadəçi araligi daxil edir. O araliqda butun ededleri yoxlayib , sade olub
+olmadigini gostermek gerekir. Ədəd sadədirsə True, mürəkkəbdirsə False çap olunsun.
+(Sadə ədədlər yalnız özünə və 1-ə bölünən ədədlərdir)
+
+2) Istifadechi eded daxil edir. Ededin reqemlerinin sade ya murekkeb olmasini yoxlamaq gerekir.
+1234456
+
+3) Istifadechi eded daxil edir. Ededin tek reqemlerinin cemini tapmaq gerekir
+
+4) Istifadechi eded daxil edir. Ededin sade reqemlerinin cemini tapmaq gerekir.
