@@ -1,0 +1,1 @@
+# 2. 1den 100e kimi 2ye bolunenlerin sayini tapmaq gerekir

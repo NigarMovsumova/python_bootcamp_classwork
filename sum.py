@@ -10,8 +10,8 @@ counter = 0
 # print(counter)
 
 while number != 0:
-    # digit = number % 10
-    if number % 3 == 0:
+    digit = number % 10
+    if digit % 3 == 0:
         counter += 1
     number //= 10
 print(counter)
