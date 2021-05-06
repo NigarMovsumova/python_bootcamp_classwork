@@ -16,5 +16,3 @@ while number != 0:
     number = number // 10
     counter += 1
 print(counter)
-
-# n reqemli ededin yalniz cut reqemlerini cemleyin
