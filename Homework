@@ -1,0 +1,40 @@
+0. Bütün böyük, kiçik hərfləri və rəqəmləri ayrı ayrılıqda hesablamaq
+gərəkir
+
+
+lower - 10
+upper - 3
+digits - 10
+
+1. Aşağıda yazılan hərflər verilən mətndə neçə dəfə təkrarlanır
+[a, b, c, d, e]
+
+a - 1
+b - 10
+c - 3
+d - 5
+e - 15
+
+2. Rəqəm olmayan bütün simvollari sətrdən silməyiniz gərəkir.
+My age is 27. I was born in 1994
+
+271994
+
+
+3. İlk, ikinci və son simvolları istifadə etməklə, yeni sətr yaradın
+hello
+
+heo
+
+4. Sətr A hərfi ilə başlayır ya yox, yoxlamaq gərəkir.
+
+Alphabet
+alphabet
+
+True
+
+zoo
+Zoo
+
+False
+
