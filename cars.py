@@ -1,4 +1,5 @@
-cars = ['BMW', 'Rolls Royce', 'Bentley', 'Kamaz', 'Lada Kalina', 'Tesla']
+cars = ['BMW', 'Rolls Royce', 'Bentley', 'Kamaz',
+        'Lada Kalina', 'Tesla']
 scores = [4.3, 4.7, 4.8, 2.3, -1.6, 5]
 
 # BMW - 4.3
@@ -10,3 +11,15 @@ scores = [4.3, 4.7, 4.8, 2.3, -1.6, 5]
 # mashin adi + meslehetli oldugu qeyd olunsun
 # 2. eger neqativdirse, - tehlukelidir
 # 3. eger 0 - 4 arasindadirsa - meslehet deyil.
+
+for i in range(0, len(cars)):
+    # print(cars[i])
+    # print(scores[i])
+    if scores[i] < 0:
+        print(cars[i], 'is dangerous')
+    elif scores[i] >= 4:
+        print(cars[i], 'is okay')
+    else:
+        print(cars[i], 'is not advicable')
+
+
