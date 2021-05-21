@@ -1,0 +1,15 @@
+Funksiyalar:
+
+1. Funksiya aşağı və yuxarı həddləri qəbul edir.
+Həddlər istifadəçi tərəfindən daxil edilməlidir.
+Həmin aralıqda olan rəqəmləri çap etmək gərəkir.
+Heçnə qaytarmağa ehtiyac yoxdur funksiyadan.
+
+2. Funskiya 2 eded arqument kimi qebul edir,
+maksimum hansidirsa, onu qaytarir.
+
+3. Istifadechi daxil etdiyi metnin uzunlugunu qaytaran funksiya
+yazmaq gerekir. Metni arqument kimi qebul edir.
+
+4. Istifadechinin chekisi funksiyaya arqument kimi oturulur.
+Ona esasen funksiya gune ne qeder su ichmeli oldugu qaytarir.
