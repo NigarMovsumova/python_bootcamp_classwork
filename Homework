@@ -1,0 +1,13 @@
+1. Dərsdə yazdığımız kodda int-lə bağlı exception-u nəzərə almaq
+gərəkir.
+
+2. İstifadəçi (ad qoymaq mütləqdir) maaşını hesablamaq üçün
+funksiyadan istifadə edir, və özü çıxmağa qərarını almayana kimi
+proqram icra olunur.
+Nəyi daxil edir istifadəçi ?
+1. Esas maash
+2. Overtime
+3. Bonus
+4. Yemek pulu
+5. Taksi pulu
+Istisnaları nəzərə almaq gərəkir.
