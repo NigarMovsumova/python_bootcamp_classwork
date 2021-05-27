@@ -1,0 +1,33 @@
+1. İstifadəçi yaşını və cinsini daxil edir,
+onun təqaüd yaşının olub olmadığını tapan program
+yazın.
+
+2. Verilən sətrin ardına 'ing' əlavə edən proqram yazın.
+(Sətrin uzunluğu ən azı 3 olmalıdır).
+Əgər sətr artıq ing-lə bitirsə, ly əlavə edin.
+3dən aşağıdırsa uzunluğu sətrin, dəyişməyin sətri.
+
+Sample String : 'abc'
+Expected Result : 'abcing'
+Sample String : 'string'
+Expected Result : 'stringly'
+
+3. İstifadəçi iki kəsr ədəd daxil edir.
+Onların tam və kəsr hissələrinin cəmini tapın.
+( Məsələn : 1.5 və 3.2 - Tam hissə cəmi 4 ,
+kəsr hissə cəmi 0.7 edir)
+
+4. İstifadəçi menecerin aylıq satışlarının
+cəmini AZN ilə daxil edir. Menecerin aylıq maaşı 100$ + 5%
+satışlardan gələn gəlirdən ibarətdir.
+Menecerin maaşını hesablayan program yazın.
+
+5. İstifadəçi kütləni tonla daxil edir (Kəsr ədəd).
+Ekrana ton,kiloqram,qram halında çıxarın.
+(Məsələn 126.456789 Ton,
+Ekrana 126 Ton, 456 kq, 789 q çıxmalıdır)
+
+6. İstifadəçi sahib olduğu pulu daxil edir
+(Kəsr halda: məsələn 15.30).
+İstifadəçinin neçə manat və neçə qəpiyi olduğunu
+ekrana çıxarın. ( Ekrana 15 manat, 30 qəpik çıxmalıdır)
