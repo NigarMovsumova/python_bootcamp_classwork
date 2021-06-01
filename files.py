@@ -5,7 +5,6 @@ file = open("users", "r")
 # print(file_content)
 
 line = file.readline()
-print('**************')
 # print(len('    nigarm       '))
 # print(len('    nigarm       '.strip()))
 while line:
