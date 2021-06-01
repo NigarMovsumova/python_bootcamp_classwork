@@ -31,16 +31,26 @@
 # print('User exists') if flag else print('User does not exist')
 
 
-with open('users', 'a+') as file:
-    # print(file.read())
-    file.write('test')
-    # print(file.read())
+# with open('users', 'a+') as file:
+#     # print(file.read())
+#     file.write('test')
+#     # print(file.read())
 
 # 1. File yoxdursa, yaradilsin.
-# 2. File achilsin, ichi boshdursa, ichine hansisa soz yaziB
+# 2. File achilsin, ichi boshdursa, ichine hansisa soz yazib
 # baglamaq lazimdir
 # 3. Eger ichi bosh deyilse, o zaman ichinde chap etmek gerekir.
 
+flag = True
+with open('test', 'w+') as file:
+    file_content = file.read()
+    if len(file_content) == 0:
+        flag = False
+        file.write('trololo')
 
+if flag:
+    file = open('test', 'r+')
+    print(file.read())
+    file.close()
 
 
