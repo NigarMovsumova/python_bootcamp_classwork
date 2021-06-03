@@ -1,0 +1,11 @@
+1. Ədədin rəqəmlərinin cəmini tapmaq gərəkir.
+2. Rəqəmin yalnız sadə bölənlərini tapıb,
+list şəklində qaytarmaq gərəkir. Əgər listdə artıq o rəqəm
+varsa, əlavə etmək lazım deyil.
+3. Ədədin palindrom olub olmadığını yoxlamaq gərəkir.
+Dövr istifadə etmədən bunu etmək olar mı
+ya yox, yoxlayın.
+4. Listdə cüt olan ədədləri konsola çıxarmaq gərəkir.
+5. Ardıcılıığın maksimumunu tapmaq gərəkir.
+6. Ardıcıllığın arifmetik ortalamasını tapmaq gərəkir.
+7. Maksimumum listdə neçə dəfə təkrarlandığını tapmaq gərəkir.
