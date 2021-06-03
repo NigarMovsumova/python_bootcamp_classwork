@@ -39,3 +39,22 @@
 
 # Rekursiya vasitesile 10dan 0a kimi butun ededlerin cemini tapmaq.
 
+# numbers_sum = 0
+# for i in range(0, 11):
+#     numbers_sum += i
+#
+# print(numbers_sum)
+
+# def sum_numbers(counter, numbers_sum):
+#     if counter == 11:
+#         print(counter)
+#         print(numbers_sum)
+#         return
+#     numbers_sum += counter
+#     counter += 1
+#     sum_numbers(counter, numbers_sum)
+#
+#
+# counter = 1
+# numbers_sum = 0
+# sum_numbers(counter, numbers_sum)
