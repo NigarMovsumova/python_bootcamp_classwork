@@ -18,14 +18,22 @@ import random
 # print(get_positive_numbers(numbers))
 
 
-certificates = ['A1', 'A2', 'B1', 'B2', 'AIH Torpaq Alqi Satqisi',\
-                'Gomruk IT']
-
-random_certificate = random.choice(certificates)
-print(random_certificate)
+# certificates = ['A1', 'A2', 'B1', 'B2', 'AIH Torpaq Alqi Satqisi',\
+#                 'Gomruk IT']
+#
+# random_certificate = random.choice(certificates)
+# print(random_certificate)
 
 # Random ededlerden ibaret list yaratmaq ve
 # hansisa random ededi o listde olub olmadigini yoxlamaq gerekir.
 
 
+random_number = random.randint(1, 10)
+random_numbers = []
+for i in range(0, 10):
+    random_numbers.append(random.randint(1, 10))
 
+print(random_number)
+print(random_numbers)
+
+print(random_number in random_numbers)
