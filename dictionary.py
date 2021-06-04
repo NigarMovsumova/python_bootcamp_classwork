@@ -71,3 +71,18 @@ currencies = {
 # currencies dictionarysinde eger istifadechi daxil etdiyi
 # key varsa, onu silmek gerekir value ile birlikde.
 
+
+# 1. Istifadechi key daxil edir. Eger o dictionaryde yoxdursa,
+# hemin key elave edilir dictionaryye, value kimi ise her
+# hansisa random ededi elave edirsiniz.
+
+# 2. Telebelerin ballari yazildigi dictionary yaratmaq gerekir,
+# key - Telebenin adi/soyadi/ata adi, value ise yigdigi xal
+# Istifadechiye menu verin, ve hemin menuda bu sechimler olsun:
+# 1. Telebe elave etmek (hem ad/soyad/ata adi, hem xali)
+# 2. Telebeni silmek
+# 3. Telebelerin siyahisina baxmaq
+# 4. Telebenin xalini deyishmek
+
+# Proqram istifadechi s herfini daxil edene
+# kimi sonsuz olaraq ishlemelidir.
