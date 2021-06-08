@@ -121,3 +121,7 @@ print_list_beautifully(shopping_list)
 #
 #
 # demo_func_3()
+
+# Funksiya kwargs qebul edir.
+# hemin kwargsda test keywordu varsa, chap edilsin value
+# Yoxdursa, qeyd olunsun ki, o cur value yoxdur.
