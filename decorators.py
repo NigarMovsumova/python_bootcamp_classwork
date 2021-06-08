@@ -5,50 +5,50 @@ from time import time
 # Keyword arguments butun positional argumentlerden sonra olmalidir.
 # args, kwargs- keyword arguments
 
-def create_shopping_list(food_name, shopping_lists):
-    shopping_dictionary = {
-        'shah pilaf': ['Rice', 'Lavash', 'Butter', 'Qayisi', 'Shabalid',
-                  'Salt', 'Meat'],
-        'cesar salad': ['Chicken', 'Tuna', 'Kahi', 'Sauce', 'Suxari',
-                   'Salt', 'Olive Oil', 'Tomatoes', 'Cucumber']
-    }
-    try:
-        shopping_lists.append(shopping_dictionary[food_name])
-    except KeyError:
-        shopping_lists.append(["Bizim menyumuza bu yemek yoxdur."])
-
-    return shopping_lists
-
-
-def get_shopping_list(**kwargs):
-    # print(kwargs)
-    # print(kwargs['food_choice'])
-    # print(kwargs['alternative'])
-    shopping_lists = []
-    create_shopping_list(kwargs['food_choice'], shopping_lists)
-    create_shopping_list(kwargs['alternative'], shopping_lists)
-    return shopping_lists
-
-
-def print_list_beautifully(sample_list):
-    for item in sample_list:
-        print(item)
-    print("*" * 100)
-
-
-food_choice = input("What do you want to cook? ")
-alternative = input('Which alternative would you prefer? ')
-
-# shopping_list = get_shopping_list(food_choice, alternative)
-shopping_list = get_shopping_list(alternative=alternative,
-                                  food_choice=food_choice)
-print_list_beautifully(shopping_list)
-shopping_list = get_shopping_list(alternative=alternative,
-                                  food_choice=alternative)
-print_list_beautifully(shopping_list)
-shopping_list = get_shopping_list(alternative=food_choice,
-                                  food_choice=food_choice)
-print_list_beautifully(shopping_list)
+# def create_shopping_list(food_name, shopping_lists):
+#     shopping_dictionary = {
+#         'shah pilaf': ['Rice', 'Lavash', 'Butter', 'Qayisi', 'Shabalid',
+#                   'Salt', 'Meat'],
+#         'cesar salad': ['Chicken', 'Tuna', 'Kahi', 'Sauce', 'Suxari',
+#                    'Salt', 'Olive Oil', 'Tomatoes', 'Cucumber']
+#     }
+#     try:
+#         shopping_lists.append(shopping_dictionary[food_name])
+#     except KeyError:
+#         shopping_lists.append(["Bizim menyumuza bu yemek yoxdur."])
+#
+#     return shopping_lists
+#
+#
+# def get_shopping_list(**kwargs):
+#     # print(kwargs)
+#     # print(kwargs['food_choice'])
+#     # print(kwargs['alternative'])
+#     shopping_lists = []
+#     create_shopping_list(kwargs['food_choice'], shopping_lists)
+#     create_shopping_list(kwargs['alternative'], shopping_lists)
+#     return shopping_lists
+#
+#
+# def print_list_beautifully(sample_list):
+#     for item in sample_list:
+#         print(item)
+#     print("*" * 100)
+#
+#
+# food_choice = input("What do you want to cook? ")
+# alternative = input('Which alternative would you prefer? ')
+#
+# # shopping_list = get_shopping_list(food_choice, alternative)
+# shopping_list = get_shopping_list(alternative=alternative,
+#                                   food_choice=food_choice)
+# print_list_beautifully(shopping_list)
+# shopping_list = get_shopping_list(alternative=alternative,
+#                                   food_choice=alternative)
+# print_list_beautifully(shopping_list)
+# shopping_list = get_shopping_list(alternative=food_choice,
+#                                   food_choice=food_choice)
+# print_list_beautifully(shopping_list)
 
 # def square_nums(test2, nums=[1, 2], test=""):
 #     print('test=', test)
@@ -125,3 +125,21 @@ print_list_beautifully(shopping_list)
 # Funksiya kwargs qebul edir.
 # hemin kwargsda test keywordu varsa, chap edilsin value
 # Yoxdursa, qeyd olunsun ki, o cur value yoxdur.
+
+
+# def kwargs_func(**kwargs):
+#     try:
+#         print(kwargs['test'])
+#     except KeyError:
+#         print('There is not such key')
+
+
+def kwargs_func(**kwargs):
+    if 'test' in kwargs.values():
+        print(kwargs['test'])
+    else:
+        print('There is not such key')
+
+
+kwargs_func()
+kwargs_func(test='test1')
