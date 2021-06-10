@@ -9,11 +9,16 @@
 # for i in generator:
 #     print(i)
 
-for i in (num ** 2 for num in range(0, 10)):
-    print('i=', i)
+# for i in (num ** 2 for num in range(0, 10)):
+#     print('i=', i)
 
 # 0 - 100, 3 - 101
 # generator yaratmaq lazimdir verilen rangeden() yalniz cut reqemlerle
+
+# for i in (num for num in range(3, 100) if num % 2 == 0):
+#     print(i)
+
+# for i in range(0, 100, 2)
 
 # generator = pow_numbers(range(1, 100))
 # # for gen_num in generator:
@@ -41,4 +46,8 @@ for i in (num ** 2 for num in range(0, 10)):
 #     print(i)
 #     counter += 1
 
-
+# 1. Decorator yazmaq gerekir.
+# Dekoratordan kenar istifadechi reqemi daxil edir
+# Dekorator yoxlayir ki, hemin reqem int, floatdir mi.
+# eger intdirse, o zaman 2ye vurub, **2 tapsin.
+# floatdirsa, kesrnen tam hissesini toplasin.

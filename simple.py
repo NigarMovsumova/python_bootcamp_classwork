@@ -59,6 +59,4 @@
 #
 # # decorator(choice)()
 #
-#
-#
-#
+

@@ -81,16 +81,16 @@ from time import time
 # demo([1, 2, 3, 4], test='test')
 #
 #
-def demo_func():
-    result = 0
-    for i in range(0, 100):
-        result = i ** 3
-    return result
-
-
-def demo_func_2(*args):
-    for i in args:
-        print(i)
+# def demo_func():
+#     result = 0
+#     for i in range(0, 100):
+#         result = i ** 3
+#     return result
+#
+#
+# def demo_func_2(*args):
+#     for i in args:
+#         print(i)
 
 
 def check_time(func):
@@ -106,21 +106,21 @@ def check_time(func):
     return inner_func
 
 
-func = check_time(demo_func)
-func_2 = check_time(demo_func_2)
+# func = check_time(demo_func)
+# func_2 = check_time(demo_func_2)
+#
+# print('func = ', func)
+# print('func2 = ', func_2)
+# func()
+# func_2([1, 2, 3, 4])
 
-print('func = ', func)
-print('func2 = ', func_2)
-func()
-func_2([1, 2, 3, 4])
-#
-#
-# @check_time
-# def demo_func_3():
-#     print('test demo func 3')
-#
-#
-# demo_func_3()
+
+@check_time
+def demo_func_3():
+    print('test demo func 3')
+
+
+demo_func_3()
 
 # Funksiya kwargs qebul edir.
 # hemin kwargsda test keywordu varsa, chap edilsin value
