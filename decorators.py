@@ -81,38 +81,38 @@ from time import time
 # demo([1, 2, 3, 4], test='test')
 #
 #
-# def demo_func():
-#     result = 0
-#     for i in range(0, 100):
-#         result = i ** 3
-#     return result
-#
-#
-# def demo_func_2(*args):
-#     for i in args:
-#         print(i)
-#
-#
-# def check_time(func):
-#     def inner_func(*args, **kwargs):
-#         print(args, "  ", kwargs)
-#         start = time()
-#         result = func(*args, **kwargs)
-#         end = time()
-#         print('processed function {} in {}'.format(func, end - start))
-#         return result
-#
-#     return inner_func
-#
-#
-# func = check_time(demo_func)
-# func_2 = check_time(demo_func_2)
-#
-# print(func)
-# print(func_2)
-# func()
-# print('ok')
-# func_2([1, 2, 3, 4])
+def demo_func():
+    result = 0
+    for i in range(0, 100):
+        result = i ** 3
+    return result
+
+
+def demo_func_2(*args):
+    for i in args:
+        print(i)
+
+
+def check_time(func):
+    print(func)
+    def inner_func(*args, **kwargs):
+        print(args, "  ", kwargs)
+        start = time()
+        result = func(*args, **kwargs)
+        end = time()
+        print('processed function {} in {}'.format(func, end - start))
+        return result
+
+    return inner_func
+
+
+func = check_time(demo_func)
+func_2 = check_time(demo_func_2)
+
+print('func = ', func)
+print('func2 = ', func_2)
+func()
+func_2([1, 2, 3, 4])
 #
 #
 # @check_time
@@ -134,12 +134,12 @@ from time import time
 #         print('There is not such key')
 
 
-def kwargs_func(**kwargs):
-    if 'test' in kwargs.values():
-        print(kwargs['test'])
-    else:
-        print('There is not such key')
-
-
-kwargs_func()
-kwargs_func(test='test1')
+# def kwargs_func(**kwargs):
+#     if 'test' in kwargs.values():
+#         print(kwargs['test'])
+#     else:
+#         print('There is not such key')
+#
+#
+# kwargs_func()
+# kwargs_func(test='test1')
