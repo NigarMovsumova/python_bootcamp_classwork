@@ -1,0 +1,10 @@
+Vehicle classı yaradın, onu təsvir edən attributları və
+metodları qeyd edin.
+Vehicle classindan miraslanan Car ve Plane classlarını yaradın.
+Eyni shekilde onun attributlarini ve metodlarini qeyd edin.
+
+Overload olan metodları və super klassda olan metodları istifadə
+etməyə unutmayın.
+
+Hər klassda ən azı 5 metod və attribut olmalıdır ayrı ayrılıqda.
+
