@@ -1,7 +1,7 @@
 class Point:
 
     # initializator
-    # self -
+    # self 
     def __init__(self, x, y, z):
         # x и y - это instance attributes, то есть аттрибуты экземпляра
         self.x = x
