@@ -14,6 +14,7 @@ class Human:
     def __str__(self):
         return 'Human: name: {}, age: {} '.format(self.name, self.age)
 
+
 class Employee(Human):
 
     def __init__(self, name, age, workplace, salary, vacation_days):
@@ -27,8 +28,9 @@ class Employee(Human):
 
     def __str__(self):
         return super(Employee, self).__str__() + \
-        "workplace:{}, salary:{}, vacation_days:{}"\
-            .format(self.workplace, self.salary, self.vacation_days)
+               "workplace:{}, salary:{}, vacation_days:{}" \
+                   .format(self.workplace, self.salary, self.vacation_days)
+
 
 employee = Employee('Ali', 17, 'Google', 20000, 40)
 print(employee)

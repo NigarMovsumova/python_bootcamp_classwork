@@ -16,5 +16,4 @@ point = Point(4, 6, 5)
 
 print(point, '\n', point.x, point.y, point.z)
 
-
 # https://www.tutorialsteacher.com/python/magic-methods-in-python
