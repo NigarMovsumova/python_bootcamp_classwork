@@ -1,0 +1,21 @@
+# 1. Kitabchadan telefon nomresini gostermek
+# 2. Telefon nomresini silmek
+# 3. Telefon nomresi elave etmek olar (eger telefon kitabchasinin
+olchusu 10a chatibsa, o zaman teklif edin kiminse nomresini silmeye,
+eger razilashsa, evvela sorushun adini kontaktin, ve silin.
+Razi deyilse, esas menuya qayidin.
+# 4. Telefon nomresini deyishmek olur.
+# 5. Telefon nomrelerin sayina baxmaq.
+# 6. Butun telefon kitabchasini temizlemek
+(temizlemekden once sorushun birde, silmek isteyir mi deqiq ya yox,
+eger istifadechi imtina etse, qayidin esas menuya.
+# 7. Proqram sonsuz olmalidir.
+# 8. Ilk herflere gore axtarish etsin, indeksina gore
+ve tam ad/soyad/ata adina gore.
+# 9. Kontaktlarin siyahisina seliqeli formada baxmaq.
+#  9.1 Alfavite gore - a - d, a - m, h - n
+#  9.2 Alfavite gore ilk x elementi gostermek -
+1 - 20, 10- 1100, -5 - 10
+#  9.3 paginasiya - ilk 10 neferi chap ele elifbaya gore
+# 10. Soyadina gore kontaktlari goster
+# 11. Telefon nomresine gore kontaktlari chixarmaq - 050221, 050, 07723456
