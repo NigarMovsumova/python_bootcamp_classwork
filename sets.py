@@ -48,3 +48,25 @@ print(sample_set_1.intersection(sample_set_3))
 # Telebelerin siyahisi var. Eger telebe siyahida yoxdursa,
 # elave etmek imkani olsun.
 # Ve neticede gostersin elave etdi ya artiq var element
+
+students = {'Movsumova Nigar Akif', 'Murad', 'Seymur', 'Sabuhi'}
+
+# new_student = input('Enter new student\'s name')
+# if new_student in students:
+#     print('Student is already in the set')
+# else:
+#     students.add(new_student)
+#     print('student is added')
+# print(students)
+#
+# if new_student not in students:
+#     students.add(new_student)
+#     print('student is added')
+# else:
+#     print('Student is already in the set')
+# print(students)
+
+# students = ['Movsumova Nigar Akif']
+# print(students[0].split(' ')[2] == 'Anar')
+
+# Movsumova Nigar Akif
