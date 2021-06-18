@@ -51,10 +51,18 @@
 # int olmalidir
 
 # str tipinden olanlari tapib bir setrde birleshdirin.
-sample_tuple = tuple([1, 2, 3, 'n', 4.5, 5, 'i', 'gar', 6])
+# Her defe boolean tipinden olan deyishene rast geldikce,
+# verilen deyisheni beraber edin hemin elemente.
+sample_tuple = tuple([1, 2, 3, 'n', True, 4.5, 5, False, 'i', 'gar', 6])
 numbers_sum = 0
+result_str = ''
 for el in sample_tuple:
     if type(el) in [int, float]:
         numbers_sum += el
+    elif type(el) == str:
+        result_str += el
+
 
 print(numbers_sum)
+print(result_str)
+
