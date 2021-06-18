@@ -50,7 +50,7 @@
 # Tupleda olan elementlerin cemini tapmaq.
 # int olmalidir
 
-#
+# str tipinden olanlari tapib bir setrde birleshdirin.
 sample_tuple = tuple([1, 2, 3, 'n', 4.5, 5, 'i', 'gar', 6])
 numbers_sum = 0
 for el in sample_tuple:
