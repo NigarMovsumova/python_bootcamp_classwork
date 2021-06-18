@@ -4,8 +4,8 @@
 # riyazi choxluqlar anlamina gelir
 # tuple python
 
-sample_tuple = tuple(['1', '2'])
-sample_tuple_2 = (1, 2)
+# sample_tuple = tuple(['1', '2'])
+# sample_tuple_2 = (1, 2)
 # 1. Deyishdirmek olmur
 # 2. Siyahiya benzeyir
 # 3. Axtarmaq mumkun deyil neyise
@@ -18,27 +18,27 @@ sample_tuple_2 = (1, 2)
 # print(sample_tuple_2)
 
 #
-class TupleItem:
+# class TupleItem:
+#
+#     def __init__(self, i):
+#         self.i = i
+#
+#     def __str__(self):
+#         return f'TupleItem: i: {self.i}'
 
-    def __init__(self, i):
-        self.i = i
 
-    def __str__(self):
-        return f'TupleItem: i: {self.i}'
-
-
-tuple_item = TupleItem(1)
-tuple_item_2 = TupleItem(2)
-
-object_tuple = (tuple_item, tuple_item_2)
-tuple_item = tuple_item_2
-print(tuple_item)
-tuple_item.i = 3
-print(tuple_item)
-# print(object_tuple)
-print('*'*100)
-for el in object_tuple:
-    print(el)
+# tuple_item = TupleItem(1)
+# tuple_item_2 = TupleItem(2)
+#
+# object_tuple = (tuple_item, tuple_item_2)
+# tuple_item = tuple_item_2
+# print(tuple_item)
+# tuple_item.i = 3
+# print(tuple_item)
+# # print(object_tuple)
+# print('*'*100)
+# for el in object_tuple:
+#     print(el)
 
 
 # number = 1
@@ -49,4 +49,12 @@ for el in object_tuple:
 
 # Tupleda olan elementlerin cemini tapmaq.
 # int olmalidir
-sample_tuple = tuple([3, 'Nigar'])
+
+#
+sample_tuple = tuple([1, 2, 3, 'n', 4.5, 5, 'i', 'gar', 6])
+numbers_sum = 0
+for el in sample_tuple:
+    if type(el) in [int, float]:
+        numbers_sum += el
+
+print(numbers_sum)
