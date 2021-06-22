@@ -23,11 +23,12 @@ class Basket:
 
     def __init__(self):
         self._items = []
-        # -> _attr - protected - снаружи трогать нельзя
+        self.__discount = 0
+        # protected
 
-    def __iadd__(self, product):
-        self._items.append(product)
-        return self
+    # def __iadd__(self, product):
+    #     self._items.append(product)
+    #     return self
 
     def add(self, product):
         self._items.append(product)
@@ -40,3 +41,4 @@ nokia = MobilePhone("Nokia 3310", 50)
 basket = Basket()
 basket._items.append(nokia)
 print(basket._items)
+print(basket._Basket__discount)

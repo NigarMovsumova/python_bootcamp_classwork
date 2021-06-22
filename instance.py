@@ -16,6 +16,7 @@ class BaseProduct:
     def __str__(self):
         return f'{self.name}, {self.price}'
 
+
 # overriding
 class Laptop(BaseProduct):
     pass
@@ -33,6 +34,12 @@ nokia = MobilePhone("Nokia 3310", 50)
 
 product_list = [samsung_note_10, mac_pro, nokia]
 
+products_sum = BaseProduct("", 0)
+for product in product_list:
+    products_sum += product
+    # products_sum = products_sum + product
+
+print(products_sum)
 
 
 basket = samsung_note_10 + nokia + mac_pro
@@ -40,4 +47,6 @@ print('basket = ', basket)
 
 # mac_pro.test()
 # nokia.test()
+
+
 

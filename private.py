@@ -1,3 +1,7 @@
+# 1. Miraslama
+# 2. Encapsulation
+# 3. Polimorfizm
+
 class BaseProduct:
     def __init__(self, name, price):
         self.name = name
@@ -20,7 +24,7 @@ class MobilePhone(BaseProduct):
 
 class Basket:
 
-    # искажение имени аттрибута _Basket__items
+    # _Basket__items
     def __init__(self):
         self.__items = []
         self._discount = 0
@@ -45,10 +49,18 @@ samsung_note_10 = MobilePhone('Samsung Galaxy Note 10', 1000)
 mac_pro = Laptop('Macbook Pro 16"', 3500)
 nokia = MobilePhone("Nokia 3310", 50)
 
+# basket = Basket()
+# print(basket._discount)
+# # print(basket.__items)
+#
+#
+# print(basket._discount)
+# print(basket._Basket__items)
+
 basket = Basket()
-print(basket._discount)
-# print(basket.__items)
+print(basket.items)
+basket.items = mac_pro
+basket.items = nokia
+print(basket.items)
 
-
-print(basket._discount)
-print(basket._Basket__items)
+# discount - protected attribute

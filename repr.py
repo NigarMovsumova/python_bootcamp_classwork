@@ -8,10 +8,13 @@ class BaseProduct:
         return f"{self.name} (price = {self.price})"
 
     def __repr__(self):  # python view
+        print('__repr__ is called')
         return f"{self.name} (price = {self.price})"
+
 
 class Laptop(BaseProduct):
     pass
+
 
 class MobilePhone(BaseProduct):
     pass
