@@ -1,0 +1,1 @@
+# 1. contact classinda 3 contact yaradib, siyahinin ichine yazib chap etmek

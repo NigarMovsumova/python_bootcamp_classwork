@@ -1,4 +1,4 @@
-
+from app import testing_app
 
 
 class Basket:
@@ -8,4 +8,5 @@ class Basket:
 def test_imports():
     print('imported from basket.py')
 
-test_app()
+
+testing_app()
