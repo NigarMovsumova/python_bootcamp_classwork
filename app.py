@@ -6,11 +6,16 @@
 
 # numpy, pandas -> np, ps
 
-from basket import Basket
+from core.basket import test_imports, Basket
 from tkinter import Tk
 
-root_window = Tk()
 
+def testing_app():
+    print('testing imports from app.py')
+
+
+root_window = Tk()
+test_imports()
 basket = Basket()
 print(basket)
 root_window.mainloop()
