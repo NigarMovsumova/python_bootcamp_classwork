@@ -1,0 +1,12 @@
+sample_set = {1, 2, 3}
+# print(type(sample_set))
+frozen_set = frozenset(sample_set)
+# print(type(frozen_set))
+# sample_set.add(4)
+# print(sample_set)
+print(frozen_set.union({4}))
+print(type(frozen_set.union({4})))
+print(frozen_set)
+print(type(frozen_set))
+print({4}.union(frozen_set))
+print(type({4}.union(frozen_set)))
