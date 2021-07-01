@@ -24,9 +24,9 @@ def delete_task():
         del todo_list[deleted_task_index]
     except IndexError:
         print(f'Index {deleted_task_index} does not exist.')
+    print('Task is deleted from the list.')
 
-
-add_task()
-add_task()
-delete_task()
-show_list()
+# add_task()
+# add_task()
+# delete_task()
+# show_list()
