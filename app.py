@@ -1,4 +1,4 @@
-import test
+# import test
 # import random
 
 # print(__name__)
@@ -15,7 +15,7 @@ import test
 # 1den 10a kimi chap eden funksiyani diger modulda chagirmaq gerekir.
 # if __name__ = '__main__' - test etmek ucun
 
-from main import print_numbers_asc
+# from main import print_numbers_asc
 
 
 # descending
@@ -24,8 +24,8 @@ def print_numbers_desc(num1, num2):
         print(i, end=',  ')
 
 
-print_numbers_asc(1, 11)
+# print_numbers_asc(1, 11)
 
-if __name__ == '__main__':
-    print_numbers_desc(10, 0)
+# if __name__ == '__main__':
+#     print_numbers_desc(10, 0)
 
