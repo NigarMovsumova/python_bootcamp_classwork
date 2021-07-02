@@ -17,7 +17,7 @@ class Laptop(BaseProduct):
 class MobilePhone(BaseProduct):
     pass
 
-
+# total_price
 class Basket:
 
     def __init__(self):
@@ -26,47 +26,47 @@ class Basket:
     @property
     def items(self):
         return self.__items
-    #
-    # @property
-    # def discount(self):
-    #     return self._discount
-    #
 
     @items.setter
     def items(self, val):
-        self.__iadd__(val)
-    #
-    # @discount.setter
-    # def discount(self, percentage):
-    #     self._discount = percentage
-
-    def __add__(self, other):
-        self.__items.append(other)
+        if type(val) in [MobilePhone, Laptop]:
+            self.__iadd__(val)
+        else:
+            raise BasketSetterException(f'{type(val)} object can not be added to Basket.items')
 
     def __iadd__(self, product):
         self.__items.append(product)
         return self
 
-    def add(self, product):
-        self.__items.append(product)
 
+class BasketSetterException(BaseException):
+    pass
 
+class Car:
+    pass
 
 samsung_note_10 = MobilePhone('Samsung Galaxy Note 10', 1000)
 mac_pro = Laptop('Macbook Pro 16"', 3500)
 nokia = MobilePhone("Nokia 3310", 50)
+car = Car()
 
 basket = Basket()
+print(basket.items)
+basket.items = nokia
+basket.items = nokia
+basket.items = mac_pro
+print(basket.items)
+basket.items = car
+
 # print(basket.items)
 # basket.items = nokia
 # print(basket.items)
-print(basket.items)
-basket.add(samsung_note_10)
-basket.add(nokia)
-basket.add(mac_pro)
-print(basket.items)
+# print(basket.items)
+# basket.add(samsung_note_10)
+# basket.add(nokia)
+# basket.add(mac_pro)
+# print(basket.items)
 # basket.items.append(nokia)
 # print(basket.items)
-
-basket.items = nokia
+# basket.items = nokia
 
