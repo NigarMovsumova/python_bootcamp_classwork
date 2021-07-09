@@ -16,6 +16,7 @@ contactlist = [
     ['Qutab Tendir Satan Elmler', '0553215858'],
     ['Aga Selim usda ', '07021336555'],
     ['Elsen Moyka', '0702120505'],
+    {"name": "Nigar", 'number': '994555907578'}
 ]
 
 name = StringVar()
